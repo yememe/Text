@@ -1,0 +1,649 @@
+        html,body{
+            margin: 0;
+            padding: 0;
+            min-width: 1280px;
+        }
+        #header{
+            height: 55px;
+            width: 100%;
+            position: relative;
+        }
+        #logo{
+            width: 36px;
+            height: 32px;
+            position: absolute;
+            top: 50%;
+            margin-top: -16px;
+            margin-left: 53px;
+        }
+        .headTitle{
+            position: absolute;
+            font-size: 21px;
+            font-family: "黑体";
+            height: 32px;
+            position: absolute;
+            top: 50%;
+            left: 100px;
+            margin-top: -16px;
+            line-height: 32px;
+        }
+        #header nav{
+            float: right;
+            display: inline-block;
+            margin-right: 30px;
+
+        }
+        #header ul{
+            margin-bottom: 0;
+            display: inline-block;
+            list-style-type: none;
+            height: 53px;
+        }
+        #header li{
+            display: inline-block;
+            font-size: 14px;
+            font-family: "微软雅黑";
+            padding-left: 20px;
+            padding-right: 20px;
+            height: 37px;
+        }
+        #header a{
+            display: inline-block;
+            height: 36px;
+            text-decoration: none;
+            color: #B5B7BB;
+        }
+        #header a:hover{
+            color: #F1A4A3;
+            border-bottom: 2px solid #F1A4A3;
+        }
+
+        #header .login #loginIcon{
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            top: 50%;
+            margin-top: -12px;
+        }
+        #header .login{
+            height: 55px;
+            color: #e74f4d;
+            font-size: 14px;
+            font-family: "微软雅黑";
+            float: right;
+            position: relative;
+            margin-right: 70px;
+        }
+        #header .login span{
+            line-height: 55px;
+            margin-left: 30px;
+        }
+
+        .coverageOne{
+            height: 854px; 
+            background: url("firstPart.jpg") no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .coverageOne .titleOne{
+            position: absolute;
+            left: 120px;
+            top: 230px;
+            font-size: 60px;
+            font-family: "微软雅黑";
+            color: #ffffff;
+            margin-bottom: 25px;
+        }
+        .coverageOne .textOne{
+            position: absolute;
+            left: 120px;
+            top: 325px;
+            font-size: 21px;
+            line-height: 29px;
+            font-family: "微软雅黑";
+            color: #ffffff;            
+        }
+        .coverageOne .buttonOne{
+            position: absolute;
+            left: 130px;
+            top:430px;
+            width: 330px;
+            height: 65px;
+            background-color: #E7504D;
+            line-height: 65px;
+            text-align: center;
+            font-size: 30px;
+            font-family: "微软雅黑";
+            color: #ffffff;  
+        }
+        .coverageTwo{
+            height: 250px;
+            width: 100%;
+        }
+        .coverageTwo .iconPart ul{
+            height: 130px;
+            display: inline-block;
+            list-style-type: none;
+            width: 100%;
+            margin:0;
+            padding:0;
+            overflow: hidden;
+        }
+        .coverageTwo .iconPart li{
+            float: left;
+            display: inline-block;
+            height: 130px;
+            width: 25%;
+            position: relative;
+        }
+        .coverageTwo .iconPart img{
+            width: 35px;
+            height: 40px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -20px -17.5px;
+        }
+        .coverageTwo .textTwo ul{
+            height: 120px;
+            display: inline-block;
+            list-style-type: none;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .coverageTwo .textTwo li{
+            float: left;
+            display: inline-block;
+            height: 120px;
+            width: 25%;
+            text-align: center;
+            font-size: 14px;
+            color: #767777;
+            font-family: "黑体";
+        }
+        .coverageThree{
+            height: 360px;
+            background-color: #EDECEC;
+            position: relative;
+        }
+        .coverageThree figure{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .coverageThree img{
+            display: block;
+            width: 90px;
+            height: 90px;
+            margin: auto;
+        }
+        .coverageThree figure figcaption{
+            font-size: 54px;
+            color: #A1A1A1;
+            font-family: "黑体";   
+        }
+        .coverageFour{
+            height: 340px;
+            background: url("fourPart-pic.png") no-repeat;
+            background-size: cover;
+            overflow: hidden;
+        }
+        .coverageFour .titleFour{
+            text-align: center;
+            padding-top: 50px;
+            font-size: 21px;
+            font-family: "微软雅黑";
+            color: #ffffff;
+            line-height: 40px;
+        }
+        .coverageFour .textFour{
+            font-size: 12px;
+            font-family: "微软雅黑";
+            color: #ffffff;
+            line-height: 45px;
+            text-align: center;
+            margin-bottom: 50px;  
+        }
+        .coverageFour  .choose{
+            width: 235px;
+            height: 35px;
+            line-height: 35px;
+            text-align: left;
+            vertical-align: center;
+            font-size: 12px;
+            color: #a8aaaa;
+            font-family: "微软雅黑";
+        }
+        .coverageFour .choose option{
+            display: inline;
+            font-size: 12px;
+            color: #a8aaaa;
+            font-family: "微软雅黑";
+            background-color: #E4E3E5;
+            line-height: 35px;
+        }
+        .label{
+            position: relative;
+            display: inline-block;
+            left: 25%;
+        }
+        label.label::after{
+            content : "\25bc";
+            position : absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 35px;
+            line-height : 35px;
+            vertical-align : middle;
+            text-align : center;
+            background : #BE4E48;
+            color: #fefefe;
+            pointer-events: none;
+        }
+        .coverageFour .select{
+            float: left;
+            display: inline-block;
+            width: 25%;
+        }
+        .coverageFour .select .selectButton{
+            position: relative;
+            left: 25%;
+            display: inline-block;
+            width: 235px;
+            height: 35px;
+            background-color: #BE4E48;
+            text-align: center;
+            font-size: 14px;
+            font-family: "微软雅黑";
+            color: #ffffff; 
+            line-height: 35px;
+        }
+                .coverageFive{
+            height: 630px;
+            background-color: #F7F7F7;
+            position: relative;
+        }
+        .coverageFive .activitySection {
+            width: 1050px;
+            height: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -200px -525px;
+        }
+        .coverageFive .activitySection figure{
+            display: inline-block;
+            margin: auto 18px;
+        }
+        .coverageFive .activitySection figure img{
+            width: 220px;
+            height: 335px;
+            border: 1px solid #b89d9d;
+        }
+        .coverageFive .activitySection figure figcaption{
+            font-size: 16px;
+            font-family: "微软雅黑";
+            color: #565757; 
+            text-align: center;
+        }
+        .coverageFive .activitySection figure figcaption span{
+            font-size: 12px;
+            font-family: "微软雅黑";
+            color: #565757;
+        }
+        .coverageSix{
+            height: 566px;
+            overflow: hidden;
+        }
+        .coverageSix .leftInSix{
+           display: inline-block;
+           float: left;
+           background: url("sixPart-pic.jpg") no-repeat;
+           background-size: cover;
+           height: 566px;
+           width: 66%;
+       }
+       .coverageSix .leftInSix .contentLeft{
+            padding-top: 130px;
+            font-size: 50px;
+            font-family: "微软雅黑";
+            color: #ffffff;
+            text-align: center;
+       }
+       .coverageSix .leftInSix .contentLeft .time{
+            font-size: 158px;
+            font-family: "微软雅黑";
+            color: #ffffff;
+       }
+        .coverageSix .leftInSix .contentLeft .date{
+            padding-top: 40px;
+            font-size: 22px;
+            font-family: "微软雅黑";
+            color: #ffffff;
+            text-align: center;
+            line-height: 30px;
+       }
+       .coverageSix .rightInSix{
+        display: inline-block;
+        height: 100%;
+        width: 34%;
+        float: right;
+        position: relative;
+       }
+       .coverageSix .rightInSix .contentRight{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+       }
+       .coverageSix .rightInSix .contentRight h2{
+            display: block;
+            width: 125px;
+            margin:0 auto;
+            font-size: 25px;
+            color: #000;
+            font-family: "微软雅黑";
+            font-weight: lighter;
+       }
+       .coverageSix .rightInSix .contentRight .red{
+            color:red;
+       }
+       .coverageSix .rightInSix .contentRight p{
+            font-size: 12px;
+            color: #aaaaaa;
+            font-family: "微软雅黑";
+            line-height: 30px;
+       }
+       .coverageSix .rightInSix .contentRight .information{
+            display: block;
+            width: 107px;
+            height: 35px;
+            border: 1px solid #e25c60;
+            color: #e25c60;
+            font-size: 12px;
+            font-family: "微软雅黑";
+            line-height: 35px;
+            text-align: center; 
+            margin:45px auto 5px auto;          
+       }
+       .coverageSix .rightInSix .contentRight .iconSet{
+            width: 80px;
+            margin: 0 auto;
+       }
+       .coverageSix .rightInSix .contentRight .iconSet img{
+            padding: 15px 4px;
+            width: 12px;
+            height: 12px;
+       }
+               .coverageSeven{
+            height: 520px;
+            overflow: hidden;
+        }
+        .coverageSeven .leftSeven{
+            float: left;
+            display: inline-block;
+            height: 520px;
+            width: 33%;
+            background-color: #e25c60;
+            position: relative;
+        }
+        .coverageSeven .leftSeven .newLife{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%, -50%);
+        }
+        .coverageSeven .leftSeven .newLife span{
+            display: block;
+            font-size: 21px;
+            color: #ffffff;
+            font-family: "黑体"; 
+            padding-bottom: 40px;
+            margin: 0 auto;
+            text-align: center;  
+        }
+        .coverageSeven .leftSeven .newLife .divdeLine{
+            width: 31px;
+            height: 3px;
+            border-top:1px solid #fff;
+            padding:40px 0 0 0;
+            margin: 0 auto;
+        }
+        .coverageSeven .leftSeven .newLife .more{
+            width: 170px;
+            height: 44px;
+            background-color: #e25c60;
+            margin: 0 auto;
+            color: #fff;
+            font-size: 21px;
+            line-height: 44px;
+            text-align: center;
+            font-family: "黑体";
+            border:  1px solid #fff;
+        }
+
+        .coverageSeven .midSeven{
+            float: left;
+            display: inline-block;
+            height: 520px;
+            width: 33%;
+            position: relative;
+        }
+        .coverageSeven .midSeven .newLifeTwo{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%, -50%);
+        }
+        .coverageSeven .midSeven .newLifeTwo span{
+            display: block;
+            font-size: 21px;
+            color: #323333;
+            font-family: "黑体"; 
+            padding-bottom: 40px;
+            margin: 0 auto;
+            text-align: center;  
+        }
+        .coverageSeven .midSeven .newLifeTwo .divdeLineTwo{
+            width: 31px;
+            height: 3px;
+            border-top:1px solid #323333;
+            padding:40px 0 0 0;
+            margin: 0 auto;
+        }
+        .coverageSeven .midSeven .newLifeTwo .moreTwo{
+            width: 170px;
+            height: 44px;
+            margin: 0 auto;
+            color: #e25c60;
+            font-size: 21px;
+            line-height: 44px;
+            text-align: center;
+            font-family: "黑体";
+            border:  1px solid #e25c60;
+        }
+        .coverageSeven .rightSeven{
+            float: right;
+            height: 520px;
+            width: 33%;
+            background: url("sevenPart-pic.jpg") no-repeat;
+            background-size: cover;
+        }
+                .coverageEight{
+            height: 750px;
+        }
+        .coverageEight .headSection{
+            height: 180px;
+            width: 100%;
+            vertical-align: middle;
+            text-align: center;
+            padding-top: 120px;
+        }
+        .coverageEight .headSection h1{
+            font-size: 21px;
+            color: #323333;
+            font-family: "黑体";
+            line-height: 40px;            
+        }
+        .coverageEight .headSection p{
+            font-size: 12px;
+            color: #aaaaaa;
+            font-family: "微软雅黑";
+        }
+        .coverageEight .contentSection{
+            height: 450px;
+            width: 1050px;margin: 0 auto;
+        }
+
+        .coverageEight .contentSection .clauseSection{
+            display: inline-block;
+            width: 300px;
+            height: 285px;
+            margin-right: 70px;
+        }
+        .coverageEight .contentSection .clauseSection ul{
+            list-style-type: none;
+            padding:0;
+            margin:0;
+        }
+        .coverageEight .contentSection .clauseSection ul li{
+            padding: 0 ;
+            font-size: 12px;
+            font-family: SimSun;
+            color: #231815;
+        }
+        .coverageEight .contentSection .clauseSection ul li strong{
+            display: block;
+            margin: 30px 0;
+            font-size: 14px;
+            font-family: "黑体";
+            color: #231815;
+        }
+        .coverageEight .contentSection .infoSection{
+            display: inline-block;
+            width: 660px;
+            height: 285px;
+        }
+        .coverageEight .contentSection .infoSection form{
+            width: 660px;
+        }
+        .coverageEight .contentSection .infoSection form input{
+            width: 310px;
+            height: 40px;
+            background-color: #EDEDEE;
+            margin: 3px;
+            border: none;
+        }
+        .infoSection form #submmit{
+            width: 630px;
+            margin: 3px;
+        }
+        .infoSection form #descript{
+            width: 628px;
+            height: 120px;
+            margin: 3px;
+            background-color: #EDEDEE;
+            border: none;
+        }
+        .infoSection form input[placeholder],.infoSection form textarea[placeholder]{
+            font-size: 12px;
+            font-family: SimSun;
+            color: #231815;
+            padding-left:10px; 
+        }
+        .infoSection form #submmit[placeholder]{
+            font-size: 14px;
+            font-family: SimSun;
+            color: #323333;
+            text-align: center;
+        }
+        .coverageNine{
+            height: 360px;
+            background-color: #505362;
+            position: relative;
+        }
+        .coverageNine .centralPart{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%, -50%);
+        }
+        .coverageNine .centralPart h2{
+            font-size: 21px;
+            font-family: "黑体";
+            color: #ffffff;
+            text-align: center;
+            line-height: 48px;
+            margin-bottom: 15px;
+        }
+        .coverageNine .centralPart p{
+            font-size: 12px;
+            font-family: "黑体";
+            color: #ffffff;
+            text-align: center;
+            line-height: 18px;
+        }
+        .coverageNine .centralPart .subSection{
+            overflow: hidden;
+            height: auto;
+            margin: 40px auto 20px auto;
+            width: 510px;
+        }
+        .coverageNine .centralPart .subSection #text{
+            width: 430px;
+            height: 40px;
+            background-color: #ffffff;
+            margin:0;
+            padding: 0;
+            border: none;
+            float: left;
+        }
+         .coverageNine .centralPart .subSection #submit{
+            height: 40px;
+            width: 80px;
+            background-color: #6F7278;
+            color: #ffffff;
+            font-size: 15px;
+            font-family: "微软雅黑";
+            margin:0;
+            padding: 0;
+            border: none;
+            float: left;
+         }
+         .coverageNine .centralPart ul{
+            list-style-type: none;
+            margin: 0 auto;
+            width: 250px;
+         }
+         .coverageNine .centralPart ul li{
+            display: inline-block;
+            margin:40px 12px; 
+         }
+         .coverageNine .centralPart ul li img{
+            width: 25px;
+            height: 25px;
+         }
+        footer{
+            height: 60px;
+            background-color: #474756;
+            overflow: hidden;
+            color: #fff;
+            font-size: 12px;
+            font-family: "宋体";
+            line-height: 60px;
+        }
+        footer address{
+            display: inline-block;
+            float: left;
+            padding-left: 90px;
+            font-style: normal;
+        }
+        footer span{
+            float: right;
+            padding-right: 50px;
+
+        }

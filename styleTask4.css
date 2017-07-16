@@ -1,0 +1,28 @@
+	.greyDesc{
+			background-color: #ccc;
+			width: 400px;
+			height: 200px;
+			position: relative;
+		}
+		.circle{
+			width: 50px;
+			height: 50px;
+			background-color: #fc0;
+		}
+		html,body{
+			height:100%;
+		}
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center; 
+		}
+		#leftCircle{
+            border-radius: 0 0 50px 0;
+		}
+		#rightCircle{
+			border-radius: 50px 0 0 0;
+			position: absolute;
+			left:350px;
+			top: 150px;
+		}

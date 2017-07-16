@@ -1,0 +1,93 @@
+		.headstyle{
+			background-color: yellow; 
+		}
+		.headstyle ul{
+			padding:0;
+			width: 50%;
+			float: right;
+			margin-right: 0;
+			list-style-type: none;
+		}
+		.headstyle li{
+			display: inline;
+
+		}
+		.headstyle li a{
+			outline: none;
+			text-decoration: none;
+			display: inline-block;
+			width: 20%;
+			margin-right: 0;
+			text-align: center;
+			line-height: 3;
+			color:black;
+		}
+		.headstyle li:last-child a{
+			margin-right: 0;
+		}
+		.headstyle a:link,a:visited,a:focus{
+			background-color: yellow;
+		}
+		.headstyle a:hover{
+			background-color: orange;
+		}
+		.headstyle a:active{
+			background-color: red;
+			color: white;
+		}
+			html{
+		font-family: 'helvetica',helvetica,arial,sans-serif;
+	}
+		body{
+			background-color: grey
+		}
+		div{
+			background-color: white;
+			padding-bottom: 3px;
+		}
+		#A2 ul{
+			list-style-type: none;
+		}
+		div.img{
+			margin: 10px;
+			border:1px solid;
+			text-align: center;
+			padding: 3px;
+			display: inline-block;
+		}
+		#lastImg{
+			margin-bottom: 30px;
+		}
+		#A3 table{
+			table-layout: fixed;
+			width: 100%;
+			border-collapse: collapse;
+			border:1px solid grey;
+		}
+		#A3 th{
+			background-color: grey;
+			color: white;
+		}
+		#A3 tfoot td{
+			background-color: blue;
+		}
+		#A4 table{
+			width: 100%;
+			margin:auto;
+			border-spacing: 5px;
+
+		}
+		td.descLast{
+			text-align: right;
+		}
+				#btnSub{
+			background: blue;
+			color: white;
+			text-align: center;
+			display: block;
+			line-height: 20px;
+			width: 80%;
+			height:40px;
+			position: center;
+			margin:auto;
+		}

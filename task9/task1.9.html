@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="styleTask9.css">
+    <style type="text/css" media="screen">
+        html,body{
+            margin: 0;padding:0;
+            width: 100%;
+        }
+        .header{
+            height: 58px;
+            background-color: #228ABF;
+            position: relative;
+        }
+        .header img{
+            padding-left: 50px;
+            width: 36px;
+            height: 36px;
+            padding-top: 11px;
+        }
+        .header .loginPart{
+            position:absolute;
+            right: 90px;
+            top:50%;
+            transform:translateY(-50%);
+        }
+        .header .loginPart img{
+            width: 16px;
+            height: 16px;
+            padding-right: 5px;
+        }
+        .header .loginPart span{
+            font-family: "Adobe 黑体 Std";
+            font-size:14px;
+            color: #fff;
+        }
+        .header .search{
+            position: absolute;
+            right: 180px;
+            top: 50%;
+            width: 313px;
+            height: 28px;
+            margin-top: -14px;
+            background-image: url("search-icon.png");
+            background-repeat: no-repeat;
+            background-position: 3% 50%;
+            border: 0;
+            border-radius: 14px;
+            padding-left: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header" >
+        <img src="logo.png" alt=""/>
+        <div class="loginPart">
+            <img src="login-icon.png" alt="">
+            <span>登录</span>
+        </div>
+        <input type="text" class="search" />
+    </header><!-- /header -->
+</body>
+</html>
